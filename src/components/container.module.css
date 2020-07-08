@@ -1,0 +1,45 @@
+.container {
+    margin: 3rem auto;
+    max-width: 1000px;
+    /* border: thin solid black; */
+}
+
+.avatar {
+    flex: 180px 0 0;
+    width: 100px;
+    height: 180px;
+    margin: 0;
+}
+
+
+.thumbnail {
+    background-image: url(../../static/profile_img.jpeg);
+  }
+
+.user {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 12px auto;
+  }
+
+  .user:last-child {
+    margin-bottom: 0;
+  }
+
+  .description {
+    flex: 1;
+    margin-left: 18px;
+    padding: 12px;
+  }
+  .username {
+    margin: 0 0 12px 0;
+    padding: 0;
+  }
+  .headline {
+    margin: 0;
+  }
+
+  .biography {
+    margin: 0;
+    /* padding-top: 10px; */
+  }
