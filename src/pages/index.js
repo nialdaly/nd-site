@@ -9,11 +9,15 @@ const User = props => (
     <div className={styles.description}>
       <h2 className={styles.username}>{props.username}</h2>
       <p className={styles.headline}>{props.headline}</p>
-      <br></br>
+      {/* <br></br> */}
       {/* <p className={styles.biography}>{props.biography}</p> */}
-      <p className={styles.biography}>I live in London and I work at bp plc as a graduate software engineer.
-      I was born in Ireland and after studying a BEng in Mechanical Engineering and an MSc in Software Development at Queen's University Belfast I decided to jump across to London. I have developed a broad interest in ML, Cloud and Data Science and I enjoy building stuff in these areas. I am really keen to develop skills in the area of product management and technology strategy.
-        I am always keen to speak to people with fresh ideas, perspectives and a good book recommendation!</p>
+      <p className={styles.biography}>I live in London and work at bp plc as a graduate software engineer.
+      I was born in Ireland and after studying a BEng in Mechanical Engineering and an MSc in Software Development at Queen's University Belfast jumping across the water. I have developed a broad interest and experience in Machine Learning, Cloud and Data Science and I enjoy building in these areas.
+      </p>
+      <p className={styles.biography}>
+        I am really keen to develop skills in the area of startups, product management and technology strategy.
+        I love talking to people with fresh ideas and a good book recommendation!
+    </p>
     </div>
   </div>
 )
@@ -23,7 +27,6 @@ export default function About() {
     <Container>
       <User
         username="NIAL DALY"
-        // avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
         headline="Mechanical Engineer turned Software Engineer."
       // biography="I live in London and I work at bp plc as a Software Engineer."
       />

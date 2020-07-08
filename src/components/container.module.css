@@ -1,7 +1,6 @@
 .container {
     margin: 3rem auto;
     max-width: 1000px;
-    /* border: thin solid black; */
 }
 
 .avatar {
@@ -10,7 +9,6 @@
     height: 180px;
     margin: 0;
 }
-
 
 .thumbnail {
     background-image: url(../../static/profile_img.jpeg);
@@ -37,9 +35,10 @@
   }
   .headline {
     margin: 0;
+    padding-bottom: 10px;
   }
 
   .biography {
     margin: 0;
-    /* padding-top: 10px; */
+    padding-bottom: 10px;
   }
