@@ -5,14 +5,15 @@ import Container from "../components/container"
 
 const User = props => (
   <div className={styles.user}>
-    <img src={thumbnail} className={styles.avatar} alt="" />
+    {/* <img src={thumbnail} className={styles.avatar} alt="" /> */}
     <div className={styles.description}>
+      <img src={thumbnail} className={styles.avatar} alt="" />
       <h2 className={styles.username}>{props.username}</h2>
       <p className={styles.headline}>{props.headline}</p>
       {/* <br></br> */}
       {/* <p className={styles.biography}>{props.biography}</p> */}
-      <p className={styles.biography}>I live in London and work at bp plc as a graduate software engineer.
-      I was born in Ireland and after studying a BEng in Mechanical Engineering and an MSc in Software Development at Queen's University Belfast jumping across the water. I have developed a broad interest and experience in Machine Learning, Cloud and Data Science and I enjoy building in these areas.
+      <p className={styles.biography}>I live in London and work at bp plc as a graduate software engineer building tech to help accelerate the energy transition.
+      I was born in Ireland and after studying a BEng in Mechanical Engineering and an MSc in Software Development from Queen's University Belfast I jumped across the water. I have developed a broad interest and experience in Machine Learning, Cloud and Data Science and I enjoy building in these areas.
       </p>
       <p className={styles.biography}>
         I am really keen to develop skills in the area of startups, product management and technology strategy.
