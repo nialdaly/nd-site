@@ -13,7 +13,7 @@ const User = props => (
       {/* <br></br> */}
       {/* <p className={styles.biography}>{props.biography}</p> */}
       <p className={styles.biography}>I live in London and work at bp plc as a graduate software engineer building tech to help accelerate the energy transition.
-      I was born in Ireland and after studying a BEng in Mechanical Engineering and an MSc in Software Development from Queen's University Belfast I jumped across the water. I have developed a broad interest and experience in Machine Learning, Cloud and Data Science and I enjoy building in these areas.
+      I was born in Ireland and after studying a BEng in Mechanical Engineering and an MSc in Software Development from Queen's University Belfast, I jumped across the water. I have developed a broad interest and experience in Machine Learning, Cloud and Data Science and I enjoy building in these areas.
       </p>
       <p className={styles.biography}>
         I am really keen to develop skills in the area of startups, product management and technology strategy.
